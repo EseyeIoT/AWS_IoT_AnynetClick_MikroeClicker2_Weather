@@ -1,0 +1,1 @@
+# AWS_IoT_AnynetClick_MikroeClicker2_Weather
