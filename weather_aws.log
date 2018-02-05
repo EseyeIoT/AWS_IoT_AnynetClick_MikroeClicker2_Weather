@@ -1,0 +1,24 @@
+0	1	mikroCPIC1618.exe -MSF -DBG -pP18F87J50 -DL -O11111114 -fo48 -N"D:\Office Subversion\Projects\clicker2\weatherAws\weather_aws.mcppi" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Defs\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\uses\P18\" -SP"D:\Office Subversion\Projects\clicker2\weatherAws\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FAT32 Library\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT800\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT810\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT812\Uses\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\GSM 2 Click\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FAT32 Library\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT800\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT810\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\FT812\Uses\" -IP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for PIC\Packages\GSM 2 Click\Uses\" -IP"D:\Office Subversion\Projects\clicker2\weatherAws\" "BME280_Driver.c" "MyProject.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_MemManager.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_ADC_87J50.mcl" "__Lib_FLASH_w64_e1024.mcl" "__Lib_I2C_c34d65.mcl" "__Lib_PWM_c21.mcl" "__Lib_PWM_g0.mcl" "__Lib_PWM_g34.mcl" "__Lib_SPI_c345d654.mcl" "__Lib_UART_c67g12.mcl" "__Lib_USB_genHID_P18FJ.mcl" "__Lib_PortExpander.mcl" "__Lib_CANSPI.mcl" "__Lib_CF.mcl" "__Lib_CFFat16.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_Mmc.mcl" "__Lib_MmcFat16.mcl" "__Lib_MmcFat16Constants.mcl" "__Lib_RS485.mcl" "__Lib_S1D13700.mcl" "__Lib_T6963C.mcl" "__Lib_SPIGlcd.mcl" "__Lib_SPILcd.mcl" "__Lib_SPILcd8.mcl" "__Lib_SPIT6963C.mcl" "__Lib_EthEnc28j60.mcl" "__Lib_EthEnc24j600.mcl" "__Lib_STMPE610.mcl" "__Lib_TouchPanel.mcl" "__Lib_FAT32_Driver.mcl" "__Lib_FAT32_Defs.mcl" "__Lib_FAT32.mcl" "__Lib_FT800_Defs.mcl" "__Lib_FT800.mcl" "__Lib_FT810_Defs.mcl" "__Lib_FT810.mcl" "__Lib_FT812_Defs.mcl" "__Lib_FT812.mcl" "GSM_2_P18.mcl"	 
+hint: 0	1139	Available RAM: 3883 [bytes], Available ROM: 131064 [bytes]	 
+diagnostics: 0	122	Compilation Started	bme280_defs.h
+diagnostics: 317	123	Compiled Successfully	BME280_Driver.c
+hint: 94	1164	Variable 'msb' has been eliminated by optimizer	BME280_Driver.c
+hint: 195	1164	Variable 'ctrlm' has been eliminated by optimizer	BME280_Driver.c
+hint: 204	1164	Variable 'ctrlm' has been eliminated by optimizer	BME280_Driver.c
+hint: 218	1164	Variable 'ctrlm' has been eliminated by optimizer	BME280_Driver.c
+hint: 226	1164	Variable 'cfgv' has been eliminated by optimizer	BME280_Driver.c
+hint: 233	1164	Variable 'cfgv' has been eliminated by optimizer	BME280_Driver.c
+hint: 240	1164	Variable 'output' has been eliminated by optimizer	BME280_Driver.c
+hint: 250	1164	Variable 'temp1' has been eliminated by optimizer	BME280_Driver.c
+hint: 250	1164	Variable 'temp2' has been eliminated by optimizer	BME280_Driver.c
+hint: 250	1164	Variable 'T' has been eliminated by optimizer	BME280_Driver.c
+diagnostics: 0	122	Compilation Started	bme280_driver.h
+diagnostics: 135	123	Compiled Successfully	MyProject.c
+hint: 61	1164	Variable 'len' has been eliminated by optimizer	MyProject.c
+diagnostics: 0	127	All files Compiled in 312 ms	 
+hint: 0	1144	Used RAM (bytes): 762 (20%)  Free RAM (bytes): 3121 (80%)	Used RAM (bytes): 762 (20%)  Free RAM (bytes): 3121 (80%)
+hint: 0	1144	Used ROM (bytes): 22946 (18%)  Free ROM (bytes): 108118 (82%)	Used ROM (bytes): 22946 (18%)  Free ROM (bytes): 108118 (82%)
+diagnostics: 0	125	Project Linked Successfully	weather_aws.mcppi
+diagnostics: 0	128	Linked in 344 ms	 
+diagnostics: 0	129	Project 'weather_aws.mcppi' completed: 797 ms	 
+diagnostics: 0	103	Finished successfully: 05 Feb 2018, 15:15:18	weather_aws.mcppi
